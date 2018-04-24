@@ -193,15 +193,6 @@
   <metadata name="Cdelete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="btnDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAC
-        MgAAAjIB2rwhNAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACWSURBVFhH7c4x
-        DkAwFMbx3ocDYHICu3PYTE4hcRULo9FodJPKE12kaSIfWvK95Df0tUn/akwjHZohixtlxvbAN2vgVBZ6
-        riuvnIHyYO17rxiIYiCKgSgGohiIYiDqf4FL1+77J5z/EpcDZWfu73b+S5i7/wS+jYEoBqIYiGIgioEo
-        BqIYiHIGhuRbgXIIThLnRx4HHKU2LAONB3K+UxIAAAAASUVORK5CYII=
-</value>
-  </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

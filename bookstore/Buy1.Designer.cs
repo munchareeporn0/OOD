@@ -65,13 +65,12 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnGo = new System.Windows.Forms.Button();
             this.dgvGetproduct = new System.Windows.Forms.DataGridView();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.viewID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.viewName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.viewQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cdelete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label5 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -386,7 +385,6 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.btnGo);
             this.panel4.Controls.Add(this.dgvGetproduct);
-            this.panel4.Controls.Add(this.btnDelete);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Location = new System.Drawing.Point(530, 119);
             this.panel4.Name = "panel4";
@@ -443,36 +441,6 @@
             this.dgvGetproduct.TabIndex = 130;
             this.dgvGetproduct.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGetproduct_CellContentClick);
             // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.Transparent;
-            this.btnDelete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDelete.BackgroundImage")));
-            this.btnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnDelete.FlatAppearance.BorderSize = 0;
-            this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Location = new System.Drawing.Point(13, 344);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(40, 40);
-            this.btnDelete.TabIndex = 130;
-            this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label5.Location = new System.Drawing.Point(149, 7);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 20);
-            this.label5.TabIndex = 123;
-            this.label5.Text = "รายการสั่งซื้อ";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // viewID
             // 
             this.viewID.FillWeight = 25F;
@@ -505,6 +473,21 @@
             this.Cdelete.Name = "Cdelete";
             this.Cdelete.Text = "ลบ";
             this.Cdelete.UseColumnTextForButtonValue = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label5.Location = new System.Drawing.Point(149, 7);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 20);
+            this.label5.TabIndex = 123;
+            this.label5.Text = "รายการสั่งซื้อ";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Buy1
             // 
@@ -559,7 +542,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.DataGridView dgvGetproduct;
-        private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn price;

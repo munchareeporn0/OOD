@@ -201,6 +201,7 @@
             this.btnConfirm.TabIndex = 132;
             this.btnConfirm.Text = "ยืนยัน";
             this.btnConfirm.UseVisualStyleBackColor = true;
+            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
             // btnCancel
             // 
